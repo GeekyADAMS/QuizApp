@@ -1,0 +1,289 @@
+/* @import url("~@/assets/fonts/Gilroy.css"); */
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.a-c{
+  align-items: center;
+  justify-content: center;
+}
+.a-n-c{
+  justify-content: center;
+}
+.a-c-n{
+  align-items: center;
+}
+.space-btw{
+  justify-content: space-between;
+}
+.space-even{
+  justify-content: space-evenly;
+}
+.align-center{
+  align-items: center;  
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.w100{
+  width: 100vw;
+}
+.w90{
+  width: 90vw;
+}
+.w80{
+  width: 80vw;
+}
+.w70{
+  width: 70vw;
+}
+.w60{
+  width: 60vw;
+}
+.w50{
+  width: 50vw;
+}
+.w40{
+  width: 40vw;
+}
+.w30{
+  width: 30vw;
+}
+.w20{
+  width: 20vw;
+}
+.w10{
+  width: 20vw;
+}
+.w00{
+  width: 0vw;
+}
+
+.h100{
+  height: 100vh;
+}
+.h90{
+  height: 90vh;
+}
+.h80{
+  height: 80vh;
+}
+.h70{
+  height: 70vh;
+}
+.h60{
+  height: 60vh;
+}
+.h50{
+  height: 50vh;
+}
+.h40{
+  height: 40vh;
+}
+.h30{
+  height: 30vh;
+}
+.h20{
+  height: 20vh;
+}
+.h10{
+  height: 20vh;
+}
+.h00{
+  height: 0vh;
+}
+.h5{
+  height: 5vh;
+}
+.h7{
+  height: 7vh;
+}
+.w55{
+  width: 55vw;
+}
+.w60p{
+  width: 60%;
+}
+.poppins{
+  font-family: 'Poppins', 'Josefin Sans', Raleway, Arial;
+}
+.Poppins{
+  font-family: 'Gilroy-bold', 'Josefin Sans', Raleway, Arial;
+}
+.bold{
+  font-weight: bold;
+}
+.bolder{
+  font-weight: bolder;
+}
+.t-center{
+    text-align: center;
+}
+.white{
+  color: white;
+}
+.darkTxt{
+  color: #101820;
+}
+.darkBg{
+  background: #101820;
+}
+.whiteBg{
+  background: white;
+}
+.blueTxt{
+  color: rgb(44, 135, 240);
+}
+.bit-fade{
+  opacity: .8;
+}
+.tiny{
+  width: 1.0rem;
+  height: 1.1rem;
+}
+.h75{
+  height: 75vh;
+}
+.point{
+  cursor: pointer;
+}
+
+.h100p{
+  height: 100%;
+}
+.w50p{
+  width: 50%;
+}
+.w100p{
+  width: 100%;
+}
+.h0{
+  height: 0px;
+  overflow-y: hidden;
+  transition: height 5s linear .5s;
+}
+
+.noDisplay{
+  display: none;
+}
+.roundDiv-sm{
+  border-radius: 100px;
+}
+.scroll-x{
+  overflow-x: scroll;
+}
+.scroll-x::-webkit-scrollbar{
+  display: none;
+}
+.round{
+  border-radius: 100%;
+}
+.border-box{
+  box-sizing: border-box;
+}
+.rel{
+  position: relative;
+}
+
+.label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.la:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.label input:checked ~ .checkmark {
+  background-color: rgb(6, 255, 213);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.label .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.fix-mid{
+  position: fixed;
+  top: auto;
+}
+
+.curve-15-all{
+  border-radius: 20px;
+}
+
+.big-card-shadow{
+  box-shadow: 8px 8px 24px rgba(0,0,0,.15);
+}
+
+.whiteBg{
+  background: white;
+}
+
+.t-warn{
+  color: #FF8787;
+}
+
+.no-select{
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
