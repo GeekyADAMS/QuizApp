@@ -170,10 +170,10 @@ export default {
         if (question.name === course) {
           const { name, questions } = question
           if (this.questions.length > 0) {
-            this.questions.push({ name, questions, selected: false })
+            this.questions.push({ name, questions, selected: false, completed: false })
           } else {
             questions[0].current = true
-            this.questions.push({ name, questions, selected: true })
+            this.questions.push({ name, questions, selected: true, completed: false })
           }
         }
       }
@@ -194,24 +194,24 @@ export default {
   },
   methods: {
     selectCategory (index) {
-      for (let i = 0; i < this.questions.length; i++) {
-        const question = this.questions[i]
-        if (i === index) {
-          question.selected = true
-        } else {
-          question.selected = false
-        }
+      const actives = this.actives
+      this.questions[actives.courseIndex].selected = false
+      // this.questions[actives.courseIndex].questions[actives.questionIndex].current = false
+      if (this.questions[actives.courseIndex].completed === true) {
+        this.questions[index].questions[0].current = true
       }
+      this.questions[index].selected = true
     },
     next () {
       const actives = this.actives
       if (actives.activeQuestion === actives.courseLength) {
         if (actives.courseIndex + 1 === this.questions.length) {
           alert('done')
-        } else if (actives.courseIndex + 1 < actives.courseLength) {
+        } else if (actives.courseIndex + 1 < this.questions.length) {
+          this.questions[actives.courseIndex].completed = true
           this.questions[actives.courseIndex].selected = false
           this.questions[actives.courseIndex].questions[actives.questionIndex].current = false
-          this.questions[actives.courseIndex + 1].questions[0].current = true
+          // this.questions[actives.courseIndex + 1].questions[0].current = true
           this.questions[actives.courseIndex + 1].selected = true
         }
       } else if (actives.activeQuestion < actives.courseLength) {

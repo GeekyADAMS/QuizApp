@@ -42,7 +42,7 @@
         "answer": "1853",
         "userChoice": "",
         "correctStatus": false,
-        "current": false
+        "current": true
       },
       {
         "question": "What year is foo foo foo created?",
@@ -84,7 +84,7 @@
         "answer": "1853",
         "userChoice": "",
         "correctStatus": false,
-        "current": false
+        "current": true
       },
       {
         "question": "What year is foo foo foo created?",
@@ -134,7 +134,7 @@
         "answer": "1853",
         "userChoice": "",
         "correctStatus": false,
-        "current": false
+        "current": true
       },
       {
         "question": "What year is foo foo foo created?",
