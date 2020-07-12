@@ -1,0 +1,186 @@
+[
+  {
+    "name": "GNS",
+    "questions": [
+      {
+        "question": "What year is blah blah blah created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Is GNS mandatory for a Management Science Student",
+        "options": ["Yes", "No", "Maybe", "Not sure"],
+        "answer": "Yes",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Given a person who earns blah blah amount per month and a spending rate of blah blah, what will remain out of his salary per year?",
+        "options": [
+          "2000 Naira",
+          "13,250 Naira",
+          "256.33 Naira",
+          "42,672 Naira"
+        ],
+        "answer": "256.33 Naira",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      }
+    ]
+  },
+  {
+    "name": "BUS",
+    "questions": [
+      {
+        "question": "What year is blah blah blah created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": true
+      },
+      {
+        "question": "What year is foo foo foo created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Is BUS mandatory for a Management Science Student",
+        "options": ["Yes", "No", "Maybe", "Not sure"],
+        "answer": "Yes",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Given a person who earns blah blah amount per month and a spending rate of blah blah, what will remain out of his salary per year?",
+        "options": [
+          "2000 Naira",
+          "13,250 Naira",
+          "256.33 Naira",
+          "42,672 Naira"
+        ],
+        "answer": "256.33 Naira",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      }
+    ]
+  },
+  {
+    "name": "ECN",
+    "questions": [
+      {
+        "question": "What year is blah blah blah created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": true
+      },
+      {
+        "question": "What year is foo foo foo created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "What year is bar bar bar created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Is ECN mandatory for a Management Science Student",
+        "options": ["Yes", "No", "Maybe", "Not sure"],
+        "answer": "Yes",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Given a person who earns blah blah amount per month and a spending rate of blah blah, what will remain out of his salary per year?",
+        "options": [
+          "2000 Naira",
+          "13,250 Naira",
+          "256.33 Naira",
+          "42,672 Naira"
+        ],
+        "answer": "256.33 Naira",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      }
+    ]
+  },
+  {
+    "name": "ACC",
+    "questions": [
+      {
+        "question": "What year is blah blah blah created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": true
+      },
+      {
+        "question": "What year is foo foo foo created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "What year is bar bar bar created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "What year is baz baz baz created?",
+        "options": ["1992", "1853", "2002", "1999"],
+        "answer": "1853",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Is ACC mandatory for a Management Science Student",
+        "options": ["Yes", "No", "Maybe", "Not sure"],
+        "answer": "Yes",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      },
+      {
+        "question": "Given a person who earns blah blah amount per month and a spending rate of blah blah, what will remain out of his salary per year?",
+        "options": [
+          "2000 Naira",
+          "13,250 Naira",
+          "256.33 Naira",
+          "42,672 Naira"
+        ],
+        "answer": "256.33 Naira",
+        "userChoice": "",
+        "correctStatus": false,
+        "current": false
+      }
+    ]
+  }
+]
